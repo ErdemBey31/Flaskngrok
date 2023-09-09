@@ -10,6 +10,6 @@ run_with_ngrok(app)  # Start ngrok when app is run
 @app.route("/")
 def hello():
     return "Hello World!"
-
-if __name__ == '__main__':
+oc = "boc"
+if oc == "boc":
     app.run()
